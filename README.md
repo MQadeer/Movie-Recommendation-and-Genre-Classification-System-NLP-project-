@@ -58,11 +58,8 @@ A core aspect of this project is the investigation of how filtering less frequen
     # On macOS/Linux:
     source venv/bin/activate
     ```
-3.  **Install required Python packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    (You will need to create a `requirements.txt` file if you don't have one, by running `pip freeze > requirements.txt`)
+3.  **Install required Python packages, or you can run it on Conda base environment**
+    
 4.  **Download NLTK data:** The script will automatically attempt to download necessary NLTK data (stopwords, wordnet, averaged_perceptron_tagger). Ensure you have an active internet connection on the first run.
 
 ## 4. Data Sources
